@@ -1,1 +1,1 @@
-# Jogekar-dental-Clinic
+# JogekarClinic
