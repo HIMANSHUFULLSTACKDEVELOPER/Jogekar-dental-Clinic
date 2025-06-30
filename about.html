@@ -148,55 +148,187 @@
 
     <!-- About Start -->
     <div class="container-xxl py-5">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="about-img">
-                        <img class="img-fluid"
-                            src="https://modernfamilymedicalcentre.com/wp-content/uploads/2021/11/dentistry1.jpg"
-                            alt="">
-                        <img class="img-fluid"
-                            src="https://mydentistmorgancreek.com/wp-content/uploads/My-Dentist-at-Morgan-Creek-Young-Man-Dental-Exam.jpg"
-                            alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <h4 class="section-title"> Dental Clinic</h4>
-                    <h1 class="display-5 mb-4">My Jogekar Dental Clinic</h1>
-                    <p>Welcome to My Smile Dental Clinic, One of the best dental clinics in Andheri West, Mumbai
-                        offering advanced dental treatments to the people of all ages.</p>
-                    <p>We are well-known for providing quality dental care to all our patients that lasts a
-                        lifetime.
-
-                        Our patients love us because we advise them the best suitable dental treatments within their
-                        pocket.
-
-                        Our practice is located in Andheri West, at New Link Road, Next to Shreejee Restaurant, Near
-                        Oshiwara Police Station. For those looking for a dentist in Andheri, our location ensures an
-                        easy and hassle-free visit.</p>
-
-                    <p class="mb-4">And most importantly we have designed the practice in such a way that helps us to
-                        treat our patients in a calm & comfortable environment that results in beautiful & confident
-                        smiles.
-
-                        MSDC is equipped with all the latest & modern dental equipment that helps us to give you the
-                        best dental care in the least possible time.
-                    </p>
-                    <div class="d-flex align-items-center mb-5">
-                        <div class="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary"
-                            style="width: 120px; height: 120px;">
-                            <h1 class="display-1 mb-n2" data-toggle="counter-up">12</h1>
-                        </div>
-                        <div class="ps-4">
-                            <h3>Years</h3>
-                            <h3>Working</h3>
-                            <h3 class="mb-0">Experience</h3>
-                        </div>
-                    </div>
-                   
-                </div>
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+            <div class="about-img">
+              <img
+                class="img-fluid"
+                src="https://modernfamilymedicalcentre.com/wp-content/uploads/2021/11/dentistry1.jpg"
+                alt=""
+              />
+              <img
+                class="img-fluid"
+                src="https://mydentistmorgancreek.com/wp-content/uploads/My-Dentist-at-Morgan-Creek-Young-Man-Dental-Exam.jpg"
+                alt=""
+              />
             </div>
+          </div>
+          <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+            <h4 class="section-title"> Jogekar Multispeciality </h4>
+            <h1 class="display-5 mb-4"> Jogekar Multispeciality Dental Clinic</h1>
+            <p>
+          Dr. Latesh Jogekar – Jogekar Multispeciality Dental Clinic, Katol
+
+Led by Dr. Latesh Jogekar, our clinic in Katol offers comprehensive dental care for patients of all ages. With a focus on personalized treatment and modern dental solutions, we are dedicated to ensuring comfort, quality, and long-term results.
+
+We specialize in a wide range of dental services, including implant dentistry (implantologist), and are open all 7 days a week for your convenience.
+           With a growing reputation and a patient-first approach, Jogekar Multispeciality Dental Clinic is committed to making every smile healthy and confident. </p>
+            <p>
+      
+The clinic provides advanced dental care with a comprehensive range of treatments:
+
+✔ Treatments:
+Acrylic Partial Denture
+
+Dental Implant Fixing
+
+Presurgical Orthodontics
+
+Pulpectomy
+
+Surgical Tooth Extraction
+
+Periodontal Flap
+
+✔ Preventive & Diagnostic:
+Post and Core
+
+Ceramic Crowns and Bridges Fixing
+
+Dental Filling
+
+✔ Cosmetic & Wellness:
+Smile Makeover
+
+Fixed Partial Denture
+
+Highly trained professionals ensure precision and effective outcomes with every treatment.
+            </p>
+
+            <p class="mb-4">
+             
+            </p>
+            <div class="d-flex align-items-center mb-5">
+              <div
+                class="d-flex flex-shrink-0 align-items-center justify-content-center border border-5 border-primary"
+                style="width: 120px; height: 120px"
+              >
+                <h1 class="display-1 mb-n2" data-toggle="counter-up">12</h1>
+              </div>
+              <div class="ps-4">
+                <h3>Years</h3>
+                <h3>Working</h3>
+                <h3 class="mb-0">Experience</h3>
+              </div>
+            </div>
+            <!-- Read More Button -->
+            <a
+              class="btn btn-primary py-3 px-5"
+              href="javascript:void(0)"
+              onclick="openModal()"
+              >Read More</a
+            >
+
+            <!-- Modal HTML -->
+            <div
+              id="dentalModal"
+              class="modal"
+              style="
+                display: none;
+                position: fixed;
+                z-index: 999;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.6);
+              "
+            >
+              <div
+                class="modal-content"
+                style="
+                  background-color: #fff;
+                  margin: 10% auto;
+                  padding: 20px;
+                  border: 1px solid #888;
+                  width: 80%;
+                  max-width: 600px;
+                  border-radius: 10px;
+                  position: relative;
+                "
+              >
+                <span
+                  class="close"
+                  onclick="closeModal()"
+                  style="
+                    position: absolute;
+                    top: 10px;
+                    right: 20px;
+                    font-size: 24px;
+                    font-weight: bold;
+                    color: #000;
+                    cursor: pointer;
+                  "
+                  >&times;</span
+                >
+               <h2 class="mb-3 text-primary">Dental Clinic – My Dental Clinic</h2>
+    <p class="lead">
+      Welcome to <strong>Jogekar Multispeciality Dental Clinic</strong>, 
+    </p>
+    <ul class="list-unstyled fs-5">
+  
+
+  <li>🦷 <strong>Treatments Offered:</strong>
+    <ul>
+      <li>Acrylic Partial Denture</li>
+      <li>Dental Implant Fixing</li>
+      <li>Presurgical Orthodontics</li>
+      <li>Prosthetics</li>
+      <li>Cosmetic Dental Treatment</li>
+      <li>Scaling and Polishing</li>
+      <li>Surgery</li>
+      <li>Pulpectomy</li>
+      <li>Surgical Tooth Extraction</li>
+      <li>Periodontal Flap Surgery</li>
+    </ul>
+  </li>
+</ul>
+
+                <a
+                  class="btn"
+                  href="./contact.html"
+                  style="
+                    background-color: #b78d65;
+                    color: #fff;
+                    padding: 10px 20px;
+                    border-radius: 5px;
+                    text-decoration: none;
+                  "
+                  >Contact Now</a
+                >
+              </div>
+            </div>
+
+            <script>
+              function openModal() {
+                document.getElementById("dentalModal").style.display = "block";
+              }
+
+              function closeModal() {
+                document.getElementById("dentalModal").style.display = "none";
+              }
+
+              window.onclick = function (event) {
+                const modal = document.getElementById("dentalModal");
+                if (event.target == modal) {
+                  modal.style.display = "none";
+                }
+              };
+            </script>
+          </div>
         </div>
+      </div>
     </div>
     <!-- About End -->
 
