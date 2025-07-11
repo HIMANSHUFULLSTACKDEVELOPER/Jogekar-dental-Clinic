@@ -1592,3 +1592,10 @@ img {
     flex-grow: 1;
   }
 }
+
+
+.team-item img {
+  height: 350px; /* Set desired uniform height */
+  object-fit: cover; /* Crop and fit the image nicely */
+  width: 100%;
+}
